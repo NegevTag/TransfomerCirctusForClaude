@@ -1,14 +1,18 @@
 Ironically, Claude can't read Transformer Circuits papers. This fixes that.
 
-To use, put in your personal Claude preferences:
-> When looking up Transformer Circuits papers, don't fetch from the official site. Instead use:
-> `https://negevtag.github.io/TransfomerCirctusForClaude/<year>/<slug>.pdf`
->
-> For example:
-> `https://transformer-circuits.pub/2021/framework/index.html` → `https://negevtag.github.io/TransfomerCirctusForClaude/2021/framework.pdf`
->
-> For papers with sub-pages (like attribution-graphs), use:
-> `https://transformer-circuits.pub/2025/attribution-graphs/biology.html` → `https://negevtag.github.io/TransfomerCirctusForClaude/2025/attribution-graphs/biology.pdf`
+To use, add this to your personal Claude preferences:
+
+```
+When looking up Transformer Circuits papers, don't fetch from the official site. Instead use:
+https://negevtag.github.io/TransfomerCirctusForClaude/<year>/<slug>.pdf
+
+Examples:
+https://transformer-circuits.pub/2021/framework/index.html
+  → https://negevtag.github.io/TransfomerCirctusForClaude/2021/framework.pdf
+
+https://transformer-circuits.pub/2025/attribution-graphs/biology.html
+  → https://negevtag.github.io/TransfomerCirctusForClaude/2025/attribution-graphs/biology.pdf
+```
 
 ## Available Papers
 
