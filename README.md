@@ -1,5 +1,7 @@
 Ironically, Claude can't read Transformer Circuits papers. This fixes that.
 
+> **Warning:** PDFs are sometimes truncated at the edge of the page and may be missing some words.
+
 To use, add this to your personal Claude preferences:
 
 ```
